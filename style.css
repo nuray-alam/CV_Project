@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1000px;
+  background-color: #e5f9f5;
+  margin: 0 auto;
+}
+.profile-img {
+  width: 100px;
+  border: 2px;
+  border-radius: 17%;
+  border-color: black;
+  padding: 20px;
+  float: left;
+}
+.header-bio {
+  float: left;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  color: #11999e;
+}
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+.header-contact a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+.header-contact a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+.div-clear {
+  clear: both;
+}
+hr {
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  border-width: 100%;
+  margin: 20px;
+  border-bottom: none;
+}
+.content {
+  margin-bottom: 30px;
+}
+
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: left;
+}
+.right-div p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.common-hr {
+  border: solid black 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+main {
+  margin: 20px;
+}
+#education-left {
+  float: left;
+  width: 50%;
+}
+#education-right {
+  float: left;
+  width: 50%;
+}
+#education-left p {
+  margin: 0;
+}
+#education-right p {
+  margin: 0;
+}
+#education-left h3 {
+  padding-bottom: 24px;
+}
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+}
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.bottom-container p {
+  color: white;
+  margin-top: 15px;
+}
